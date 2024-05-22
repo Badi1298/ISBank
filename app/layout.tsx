@@ -10,7 +10,7 @@ const imbPlexSerif = IBM_Plex_Serif({
 });
 
 export const metadata: Metadata = {
-    title: "ISBanking",
+    title: "ISBank",
     description: "ISBank is a modern banking platform for everyone.",
     icons: {
         icon: "/icons/logo.svg",

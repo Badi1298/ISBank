@@ -1,5 +1,9 @@
-import React from "react";
+import AuthForm from "@/components/auth-form";
 
-export default function SingUp() {
-    return <div>SingUp</div>;
+export default function SignUp() {
+    return (
+        <section className="flex-center size-full max-sm:px-6">
+            <AuthForm type="sign-up" />
+        </section>
+    );
 }

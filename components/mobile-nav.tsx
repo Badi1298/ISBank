@@ -13,6 +13,7 @@ import {
 
 import Link from "next/link";
 import Image from "next/image";
+import Footer from "./footer";
 
 export default function MobileNav({ user }: SiderbarProps) {
     const pathname = usePathname();
@@ -93,7 +94,8 @@ export default function MobileNav({ user }: SiderbarProps) {
                                 USER
                             </nav>
                         </SheetClose>
-                        FOOTER
+
+                        <Footer user={user} type="mobile" />
                     </div>
                 </SheetContent>
             </Sheet>

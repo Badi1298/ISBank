@@ -297,7 +297,7 @@ export default function AuthForm({ type }: AuthFormProps) {
                                                     <div className="flex w-full flex-col">
                                                         <FormControl>
                                                             <Input
-                                                                placeholder="Example: YYYY-MM-DD"
+                                                                placeholder="YYYY-MM-DD"
                                                                 className="input-class"
                                                                 type="text"
                                                                 {...field}
@@ -408,7 +408,7 @@ export default function AuthForm({ type }: AuthFormProps) {
                                 : "Already have an account?"}
                         </p>
                         <Link
-                            href={type === "sign-in" ? "/sing-up" : "/sign-in"}
+                            href={type === "sign-in" ? "/sign-up" : "/sign-in"}
                             className="form-link"
                         >
                             {type === "sign-in" ? "Sign Up" : "Sign In"}
